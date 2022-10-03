@@ -1,0 +1,121 @@
+/* Mes styles */
+
+/* on va rendre le scroll plus fluide */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: rgb(8, 8, 8);
+    background-color:white;
+    font: 1em "Open Sans", sans-serif;
+
+}
+
+nav {
+    font: 0.8em "Open Sans", sans-serif;
+}
+
+section {
+    background-color:white;
+    justify-content: start;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.pad1 {
+    padding: 1em 1em 1em 1em;
+}
+
+
+.maphoto {
+    /* largeur */
+    width: 150px;
+    /* hauteur */
+    height: 200px;
+    /* bordurer */
+    border: 1px solid black;
+    /* marges exterieur */
+    margin: 20px;
+    /* on ajoute des bordures */
+    border-radius: 20%;
+    /* on ajoute une ombre */
+    box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+address{
+    background-color: rgb(74, 74, 79);
+    color: rgb(243, 236, 236);
+}
+
+.white {
+    color: white;
+}
+
+#bloc1 {
+    background-color:cadetblue;
+}
+
+#bloc2 {
+    background-color:rgb(157, 232, 235);
+    width: 600px;
+}
+
+.entreprises {
+    width: 250px;
+    margin: 0 10px 0 10px;
+}
+
+.fonctions {
+    width: 500px;
+    margin: 0 10px 0 10px;
+}
+
+#corpcv h2 {
+    padding: 10px;
+}
+
+#bloc2 h2 {
+    padding: 10px;
+    margin: 0 10px 0 10px;
+}
+
+#bloc2 p {
+    color: blue;
+    margin: 5px;
+}
+
+#bloc2 h3 {
+    margin: 5px;
+}
+
+#bloc1 p {
+    color: blue;
+    margin: 5px;
+}
+
+#bloc1 h3 {
+    margin: 5px;
+}
+
+h2{
+    margin: 10px 0 0 0;
+
+}
+
+#bandeau p{
+    margin: 2px;
+}
+
+.competences {
+    /* list-style-type: none; */
+    padding: 0 0 0 20px;
+    color: blue;
+  }

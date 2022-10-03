@@ -37,17 +37,20 @@
         <p>En plein centre ville ou en pleine nature</p>
 
         <Div class="recherche flex">
-            <i class="ico1 fa-sharp fa-solid fa-location-dot" aria-hidden="true"></i>
-            <input type="text" name="ville" id="ville">
-            <div id="Btn1">Recherche </div>
-        </Div>
+            <i class="fa-sharp fa-solid fa-location-dot" aria-hidden="true">
+                <input type="search" id="ville-search" name="ville" id="ville">
+                <button id="Btn1">Rechercher</button>
+            </i>
 
-        <Div class="filtre flex">
+        </Div>
+        <br>
+
+        <Div class="filtres flex">
             <Div>Filtres</Div>
-            <Div><i class="fa-solid fa-money-bill-1-wave" aria-hidden="true"></i>Economique</Div>
-            <Div><i class="fa-solid fa-person" aria-hidden="true"></i>Familiale</Div>
-            <Div><i class="fa-solid fa-heart" aria-hidden="true"></i>Romantique</Div>
-            <Div><i class="fa-solid fa-dog" aria-hidden="true"></i>Animaux autorisée</Div>
+            <button><i class="fa-solid fa-money-bill-1-wave" aria-hidden="true"></i>Economique</button>
+            <button><i class="fa-solid fa-person" aria-hidden="true"></i>Familiale</button>
+            <button><i class="fa-solid fa-heart" aria-hidden="true"></i>Romantique</button>
+            <button><i class="fa-solid fa-dog" aria-hidden="true"></i>Animaux autorisée</button>
 
         </Div>
 
@@ -64,8 +67,9 @@
             <div class="flex wrap">
 
                 <div class="hebergements">
-                    <img src="assets/img/hebergements/4_small/auberge_cannebiere.jpg" alt="Auberge la Cannebière"
-                        class="photoH">
+                    <a href="assets/img/hebergements/2_large/auberge_cannebiere_large.jpg"><img
+                            src="assets/img/hebergements/4_small/auberge_cannebiere.jpg" alt="Auberge la Cannebière"
+                            class="photoH"></a>
                     <h3>Auberge la Cannebière</h3>
                     <p>Nuit à partir de <em>25 €</em></p>
                     <div class="etoiles">
@@ -119,10 +123,10 @@
                 </div>
 
                 <div class="hebergements">
-                    <img src="assets/img/hebergements/4_small/auberge_cannebiere.jpg" alt="Auberge la Cannebière"
+                    <img src="assets/img/hebergements/4_small/auberge_le_panier_marseille.jpg" alt="Auberge le panier"
                         class="photoH">
-                    <h3>Auberge la Cannebière</h3>
-                    <p>Nuit à partir de <em>25 €</em></p>
+                    <h3>Auberge le Panier</h3>
+                    <p>Nuit à partir de <em>23 €</em></p>
                     <div class="etoiles">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -133,16 +137,16 @@
                 </div>
 
                 <div class="hebergements">
-                    <img src="assets/img/hebergements/4_small/auberge_cannebiere.jpg" alt="Auberge la Cannebière"
+                    <img src="assets/img/hebergements/4_small/hotel_chez_amina_marseille.jpg" alt="Hôtel chez Amina"
                         class="photoH">
-                    <h3>Auberge la Cannebière</h3>
-                    <p>Nuit à partir de <em>25 €</em></p>
+                    <h3>Hôtel chez Amina</h3>
+                    <p>Nuit à partir de <em>96 €</em></p>
                     <div class="etoiles">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
                     </div>
                 </div>
 
@@ -161,8 +165,8 @@
 
                 <div class="hebergements2 flex">
                     <div>
-                        <img src="assets/img/hebergements/4_small/hotel_soleil_du_matin.jpg" alt="Hotel du soleil du matin"
-                            class="photopop">
+                        <img src="assets/img/hebergements/4_small/hotel_soleil_du_matin.jpg"
+                            alt="Hotel du soleil du matin" class="photopop">
                     </div>
                     <div>
                         <h3>Hôtel du soleil du matin</h3>
@@ -180,8 +184,8 @@
 
                 <div class="hebergements2 flex">
                     <div>
-                        <img src="assets/img/hebergements/4_small/au_coeur_de_eau.jpg" alt="Au coeur de l'eau Chambre d'hôtes"
-                            class="photopop">
+                        <img src="assets/img/hebergements/4_small/au_coeur_de_eau.jpg"
+                            alt="Au coeur de l'eau Chambre d'hôtes" class="photopop">
                     </div>
                     <div>
                         <h3>Au coeur de l'eau Chambre d'hôtes</h3>
@@ -198,8 +202,8 @@
 
                 <div class="hebergements2 flex">
                     <div>
-                        <img src="assets/img/hebergements/4_small/hotel_tout_bleu_blanc.jpg" alt="Hôtel tout bleu et blanc"
-                            class="photopop">
+                        <img src="assets/img/hebergements/4_small/hotel_tout_bleu_blanc.jpg"
+                            alt="Hôtel tout bleu et blanc" class="photopop">
                     </div>
                     <div>
                         <h3>Hôtel tout bleu et blanc</h3>
@@ -248,34 +252,34 @@
 
                 <div class="photoA2">
                     <div>
-                        <img src="assets/img/activites/4_small/fort_comegues.jpg" alt="Fort de Pomègues"
+                        <img src="assets/img/activites/4_small/iles_du_frioul_marseille.jpg" alt="Iles du Frioul"
                             class="photoactiviteP">
                     </div>
-                    <p>Fort de Pomègues</p>
+                    <p>Iles du Frioul</p>
                 </div>
             </div>
             <div class="photoA1">
                 <div>
-                    <img src="assets/img/activites/4_small/vieux_port_marseille.jpg" alt="Auberge la Cannebière"
-                        class="photoactiviteG">
+                    <img src="assets/img/activites/4_small/parc_national_des calanques_marseille.jpg"
+                        alt="Parc National des Calanques" class="photoactiviteG">
                 </div>
-                <p>Vieux port</p>
+                <p>Parc National des Calanques</p>
             </div>
             <div class="flex column">
                 <div class="photoA2">
                     <div>
-                        <img src="assets/img/activites/4_small/fort_comegues.jpg" alt="Fort de Pomègues"
-                            class="photoactiviteP">
+                        <img src="assets/img/activites/4_small/notre_dame_de_la_garde_marseille.jpg"
+                            alt="Notre Dame de la Garde" class="photoactiviteP">
                     </div>
-                    <p>Fort de Pomègues</p>
+                    <p>Notre Dame de la Garde</p>
                 </div>
 
                 <div class="photoA2">
                     <div>
-                        <img src="assets/img/activites/4_small/fort_comegues.jpg" alt="Fort de Pomègues"
+                        <img src="assets/img/activites/4_small/parc_longchamp_marseille.jpg" alt="Parc Longchamp"
                             class="photoactiviteP">
                     </div>
-                    <p>Fort de Pomègues</p>
+                    <p>Parc Longchamp</p>
                 </div>
             </div>
 

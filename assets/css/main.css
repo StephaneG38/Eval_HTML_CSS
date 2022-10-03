@@ -5,10 +5,16 @@ html {
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: 'Raleway';
+    src: url(‘assets/fonts/Raleway/static/Raleway-Regular.ttf’) format(‘truetype’),
+}
+
 body {
     color: rgb(8, 8, 8);
     background-color: white;
-    font: 1em "Open Sans", sans-serif;
+    /* font: 1em "Open Sans", sans-serif; */
+    font-family: 'Raleway', sans-serif;
     margin-left: 20px;
 }
 
@@ -39,6 +45,7 @@ body {
     font-size: 30px;
     padding: 0 0 0 20px;
 }
+
 .recherche input {
     border: 0;
     width: 200px;
@@ -77,7 +84,7 @@ body {
     margin: 20px 0 0 0x;
     font-size: 30px;
     color: blue;
-    
+
 }
 
 img:hover {

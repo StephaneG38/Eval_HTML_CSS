@@ -1,4 +1,4 @@
-/* Mes styles */
+/* Mes styles Eval HTML CSS */
 
 /* on va rendre le scroll plus fluide */
 html {
@@ -7,20 +7,134 @@ html {
 
 body {
     color: rgb(8, 8, 8);
-    background-color:white;
+    background-color: white;
     font: 1em "Open Sans", sans-serif;
 
 }
 
 nav {
     font: 0.8em "Open Sans", sans-serif;
+    justify-content: space-between;
 }
 
-section {
-    background-color:white;
-    justify-content: start;
+
+.nav-barre {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
 }
 
+.nav-barre ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav-barre ul li {
+   margin: 20px;
+   text-decoration: none;
+   color: black;
+}
+
+
+
+.recherche {
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5%;
+    /* padding: 5px; */
+
+}
+
+#ico1 {
+    padding 10px
+}
+
+#ville {
+    /* margin: auto;*/
+    width: auto;
+    /* height: 30px; */
+}
+
+
+#Btn1 {
+    width: auto;
+    /* height: 30px; */
+    background-color: rgb(124, 124, 244);
+    border: 1px solid black;
+    border-radius: 10%;
+    /* margin: auto; */
+    padding: 5px;
+}
+
+.photoH {
+    width: 290px;
+    height: 130px;
+    border-radius: 15px 15px 0 0;
+    margin: 5px 5px 5px 5px;
+}
+
+.hebergements {
+    width: 300px;
+    height: 230px;
+    background-color: white;
+    margin: 15px;
+    /* padding-left: 10px; */
+    border-radius: 8%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+ 
+.wrap {
+    flex-wrap: wrap;
+
+}
+
+section h2 {
+    padding: 0 10px 0 20px;
+  
+}
+
+.hebergements em {
+    font-weight: bold;
+}
+
+.hebergements p  {
+    margin: 0 0 0 10px ;
+}
+
+.hebergements h3  {
+    margin: 0 0 10px 10px ;
+}
+.hebergements i {
+    color: blue;
+}
+
+.etoiles {
+    margin: 0 0 0 10px ;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.bloc1 {
+    width: 1100px;
+    height: 900px;
+    background-color: rgb(241, 230, 230);
+    border-radius: 2%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    margin-right: 15px;
+}
+
+.bloc2 {
+    width: 600px;
+    height: 900px;
+    background-color: rgb(241, 230, 230);
+    /* border-radius: 2%; */
+    /* box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1); */
+}
 .flex {
     display: flex;
 }
@@ -29,93 +143,60 @@ section {
     flex-direction: column;
 }
 
-.pad1 {
-    padding: 1em 1em 1em 1em;
+.end {
+    justify-content: end;
+}
+
+.photoactiviteG {
+    width: 280px;
+    height: 350px;
+    border-radius: 15px 15px 0 0;
+    margin: 5px 5px 5px 5px;
+}
+.photoA1 {
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    width: 290px;
+    height: 400px;
+    margin: 5px 10px 5px 10px;
+}
+
+.photoA2 {
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    width: 290px;
+    height: 190px;
+    margin: 10px 10px 5px 10px;
+}
+.photoA1 p {
+    font-weight: bold;
+    margin: 5px 5px 5px 5px;
+}
+
+.photoactiviteP {
+    width: 280px;
+    height: 140px;
+    border-radius: 15px 15px 0 0;
+    margin: 5px 5px 5px 5px;
 }
 
 
-.maphoto {
-    /* largeur */
-    width: 150px;
-    /* hauteur */
-    height: 200px;
-    /* bordurer */
-    border: 1px solid black;
-    /* marges exterieur */
-    margin: 20px;
-    /* on ajoute des bordures */
-    border-radius: 20%;
-    /* on ajoute une ombre */
-    box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.5);
+.photoA2 p {
+    font-weight: bold;
+    margin: 5px 0 0 10px;
 }
 
 
-address{
-    background-color: rgb(74, 74, 79);
-    color: rgb(243, 236, 236);
+footer {
+
+    background-color: rgb(246, 242, 236);
 }
 
-.white {
-    color: white;
+
+footer div {
+    margin: 0 0 0 70px ;
 }
-
-#bloc1 {
-    background-color:cadetblue;
+footer a {
+    text-decoration: none;
+    color: black;
 }
-
-#bloc2 {
-    background-color:rgb(157, 232, 235);
-    width: 600px;
-}
-
-.entreprises {
-    width: 250px;
-    margin: 0 10px 0 10px;
-}
-
-.fonctions {
-    width: 500px;
-    margin: 0 10px 0 10px;
-}
-
-#corpcv h2 {
-    padding: 10px;
-}
-
-#bloc2 h2 {
-    padding: 10px;
-    margin: 0 10px 0 10px;
-}
-
-#bloc2 p {
-    color: blue;
-    margin: 5px;
-}
-
-#bloc2 h3 {
-    margin: 5px;
-}
-
-#bloc1 p {
-    color: blue;
-    margin: 5px;
-}
-
-#bloc1 h3 {
-    margin: 5px;
-}
-
-h2{
-    margin: 10px 0 0 0;
-
-}
-
-#bandeau p{
-    margin: 2px;
-}
-
-.competences {
-    /* list-style-type: none; */
-    padding: 0 0 0 20px;
-    color: blue;
-  }

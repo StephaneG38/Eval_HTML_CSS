@@ -38,6 +38,7 @@ body {
 header h1 {
     margin: 20px 0 0 0;
 }
+
 header p {
     margin: 0 0 20px 0;
 }
@@ -61,13 +62,24 @@ header p {
     padding: 0 0 0 0;
 }
 
-#Btn1 {
+#Btnrecherche {
     width: 170px;
     height: 60px;
     color: white;
     background-color: blue;
     border-radius: 0px 20px 20px 0px;
     font-size: 20px;
+}
+
+.filtres {
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.filtres div {
+    padding: 20px 0 0 0;
 }
 
 .filtres button {
@@ -80,19 +92,12 @@ header p {
     font-weight: bold;
 }
 
-.filtres {
-    height: 60px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
 .filtres i {
     height: 90px;
     padding: 0 20px 0 0;
     margin: 20px 0 0 0x;
     font-size: 30px;
     color: blue;
-
 }
 
 img:hover {
@@ -125,7 +130,7 @@ img:hover {
 
 
 .hebergements2 {
-    width: 380px;
+    width: 400px;
     height: 140px;
     background-color: white;
     margin: 15px;
@@ -166,7 +171,7 @@ section h2 {
 }
 
 .hebergements2 h3 {
-    margin: 0 0 10px 10px;
+    margin: 10px 0 10px 10px;
 }
 
 .hebergements2 i {
@@ -181,6 +186,11 @@ section h2 {
     flex-direction: column;
 }
 
+.iconinfo {
+    font-size: 20px;
+    padding: 0 0 0 10px;
+}
+
 .bloc1 {
     width: 1000px;
     height: 600px;
@@ -191,7 +201,7 @@ section h2 {
 }
 
 .bloc2 {
-    width: 500px;
+    width: 440px;
     height: 600px;
     background-color: rgb(239, 237, 237);
     border-radius: 2%;

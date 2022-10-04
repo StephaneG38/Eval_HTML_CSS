@@ -7,7 +7,7 @@ html {
 
 @font-face {
     font-family: 'Raleway';
-    src: url(‘/fonts/Raleway/static/Raleway-Regular.ttf’) format(‘truetype’),
+    src: url(./fonts/Raleway/Raleway-VariableFont_wght.ttf);
 }
 
 

@@ -24,11 +24,13 @@ img:hover {
     transform: scale(1.5);
 }
 
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
 body {
     color: rgb(8, 8, 8);
     background-color: white;
-    /* font: 1em "Open Sans", sans-serif; */
-    font-family: 'Raleway', sans-serif;
     margin-left: 20px;
 }
 
@@ -101,7 +103,7 @@ header p {
     font-size: 20px;
     font-weight: bold;
     margin: 20px;
-}
+} */
 
 .filtres div {
     padding: 20px 0 0 0;
@@ -292,8 +294,8 @@ h2 {
 
 footer {
     background-color: rgb(239, 237, 237);
-    padding-bottom: 20px ;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 80px;
     border-radius: 15px;
 }
 
@@ -308,4 +310,93 @@ footer a {
 
 a:hover {
     color: blue;
+}
+
+
+/* RESPONSIVE */
+
+/* si écran plus petit que 768px on passe en colonne */
+@media screen and (max-width: 768px) {
+
+    .nav-barre ul {
+        flex-wrap: wrap;
+        /* flex-direction: row-reverse */
+    }
+
+    .filtres {
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        height: 200px;
+        padding: 15px 0 0px 0;
+        margin: 0 0 0 10px;
+    }
+
+    .filtres button {
+        margin: 0 0 0 10px;
+    }
+
+    .bloc1-2 {
+        flex-direction: column-reverse;
+    }
+
+    .bloc1 {
+        width: 441px;
+        height: 1660px;
+        margin: 20px 0 20px 0;
+        border-radius: 15px;
+
+    }
+
+    .hebergements {
+        width: 420px;
+        border-radius: 15px;
+    }
+
+    .photoH {
+        width: 410px;
+    }
+
+    .bloc3-1 {
+        flex-direction: column;
+        width: 441px;
+        height: 1660px;
+        margin: 20px 0 20px 0;
+        border-radius: 15px;
+    }
+
+    .photoA1 {
+        width: 420px;
+        height: 250px;
+    }
+
+    .photoA1 img {
+        width: 410px;
+        height: 200px;
+    }
+
+    .photoA2 {
+        width: 420px;
+        height: 250px;
+    }
+
+    .photoA2 img {
+        width: 410px;
+        height: 200px;
+    }
+
+    footer div {
+        flex-direction: column;
+        margin: 0 0 0 10px;
+    }
+
+    footer {
+        width: 440px;
+        height: 290px;
+        /* margin: 0 0 0 0; */
+    }
+
+    img:hover {
+        transform: scale(1);
+    }
+
 }

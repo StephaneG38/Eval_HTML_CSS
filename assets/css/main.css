@@ -1,9 +1,6 @@
 /* Mes styles Eval HTML CSS */
 
-/* on va rendre le scroll plus fluide */
-html {
-    scroll-behavior: smooth;
-}
+/* Générale */
 
 @font-face {
     font-family: 'Raleway';
@@ -20,6 +17,10 @@ html {
     flex-direction: column;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 img:hover {
     transform: scale(1.5);
 }
@@ -34,6 +35,12 @@ body {
     margin-left: 20px;
 }
 
+a:hover {
+    color: blue;
+}
+
+
+/* Barre de navigation */
 .nav-barre {
     justify-content: space-between;
 }
@@ -62,6 +69,7 @@ header p {
     margin: 0 0 20px 10px;
 }
 
+/* Barre de Recherche */
 .recherche {
     width: 428px;
     height: 60px;
@@ -98,37 +106,58 @@ header p {
     background-color: rgb(239, 237, 237);
 }
 
-.filtres {
-    height: 60px;
+/* Barre de filtres */
+
+.filtres2 {
+    height: 90px;
     font-size: 20px;
     font-weight: bold;
     margin: 20px;
-} */
-
-.filtres div {
-    padding: 20px 0 0 0;
+    vertical-align: middle;
 }
 
 .filtres button {
     height: 60px;
-    border-radius: 30px 30px 30px 30px;
-    padding: 10px 10px 10px 10px;
-    margin: 0 10px 0 10px;
+    border-radius: 50px 50px 50px 50px;
+    padding: 0 10px 0 0;
     font-size: 20px;
     background-color: white;
     font-weight: bold;
+    margin: 0 10px 0 10px;
 }
 
-.filtres i {
-    height: 90px;
-    padding: 0 20px 0 0;
-    margin: 20px 0 0 0x;
-    font-size: 30px;
+button i {
     color: blue;
+    width: 50px;
+    height: 40px;
+    font-size: 25px;
+    background-color: rgb(191, 200, 250);
+    border-radius: 50%;
+    padding: 15px 0 0 0;
+}
+
+.N1 {
+    padding: 15px 0 0 5px;
 }
 
 .filtres button:hover {
     background-color: rgb(239, 237, 237);
+}
+
+
+/* Bloc 1 Hébergements dans la Ville */
+
+.bloc1 {
+    width: 1000px;
+    height: 640px;
+    background-color: rgb(239, 237, 237);
+    border-radius: 2%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    margin-right: 15px;
+}
+
+h2 {
+    padding: 0 10px 0 20px;
 }
 
 .photoH {
@@ -139,13 +168,6 @@ header p {
 
 }
 
-.photopop {
-    width: 190px;
-    height: 130px;
-    border-radius: 15px 0 0 15px;
-    margin: 5px 5px 5px 5px;
-}
-
 .hebergements {
     width: 300px;
     height: 230px;
@@ -153,24 +175,6 @@ header p {
     margin: 15px;
     border-radius: 8%;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
-}
-
-
-.hebergements2 {
-    width: 400px;
-    height: 140px;
-    background-color: white;
-    margin: 15px;
-    border-radius: 18px;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
-}
-
-.wrap {
-    flex-wrap: wrap;
-}
-
-h2 {
-    padding: 0 10px 0 20px;
 }
 
 .hebergements em {
@@ -187,6 +191,32 @@ h2 {
 
 .hebergements i {
     color: blue;
+}
+
+/* Bloc 2 Hébergements Populaires */
+
+.bloc2 {
+    width: 440px;
+    height: 640px;
+    background-color: rgb(239, 237, 237);
+    border-radius: 2%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.photopop {
+    width: 190px;
+    height: 130px;
+    border-radius: 15px 0 0 15px;
+    margin: 5px 5px 5px 5px;
+}
+
+.hebergements2 {
+    width: 400px;
+    height: 140px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 18px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 .hebergements2 em {
@@ -218,13 +248,8 @@ h2 {
     padding: 0 0 0 10px;
 }
 
-.bloc1 {
-    width: 1000px;
-    height: 640px;
-    background-color: rgb(239, 237, 237);
-    border-radius: 2%;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
-    margin-right: 15px;
+.bloc2 h2 {
+    justify-content: space-between;
 }
 
 .afichplus {
@@ -240,17 +265,8 @@ h2 {
     color: blue;
 }
 
-.bloc2 {
-    width: 440px;
-    height: 640px;
-    background-color: rgb(239, 237, 237);
-    border-radius: 2%;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
-}
 
-.bloc2 h2 {
-    justify-content: space-between;
-}
+/* Bloc 3 Activités dans la ville */
 
 .photoactiviteG {
     width: 280px;
@@ -292,6 +308,9 @@ h2 {
     margin: 5px 0 0 10px;
 }
 
+
+/* Bas de page */
+
 footer {
     background-color: rgb(239, 237, 237);
     padding-bottom: 20px;
@@ -308,9 +327,7 @@ footer a {
     color: black;
 }
 
-a:hover {
-    color: blue;
-}
+
 
 
 /* RESPONSIVE */
